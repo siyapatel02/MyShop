@@ -1,0 +1,11 @@
+.checkout-page .card {
+    border-radius: 24px !important;
+    border: 1px solid var(--brand-border) !important;
+}
+.checkout-page h2 { margin-bottom: 22px; }
+.checkout-page h5 { font-weight: 900; }
+.checkout-page .form-check-input:checked { background-color: var(--brand-secondary); border-color: var(--brand-secondary); }
+.checkout-page [style*="sticky"] { top: 96px !important; }
+#selectedAddressBox,
+#savedAddresses { border-radius: 16px; }
+#availableOffers .card { box-shadow: none !important; }

@@ -1,0 +1,53 @@
+.home-page { padding-top: 28px; }
+.home-banner-section { width: 100%; }
+.home-banner-slider { width: 100%; min-height: 560px; }
+.home-banner-loading {
+    height: 560px;
+    background: linear-gradient(135deg, #f1e7e4, #fff);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--brand-muted);
+}
+.home-banner-wrapper {
+    position: relative;
+    width: 100%;
+    height: 560px;
+    border-radius: 34px;
+    overflow: hidden;
+    box-shadow: 0 26px 70px rgba(17, 17, 17, 0.12);
+}
+.home-banner-slide { position: absolute; inset: 0; opacity: 0; visibility: hidden; transition: opacity 0.7s ease, visibility 0.7s ease; }
+.home-banner-slide.active { opacity: 1; visibility: visible; }
+.home-banner-img { width: 100%; height: 100%; object-fit: cover; }
+.home-banner-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(17,17,17,.70), rgba(183,110,121,.18), rgba(255,255,255,.06)); }
+.home-banner-content { position: absolute; top: 50%; left: 7%; transform: translateY(-50%); max-width: 560px; color: white; }
+.home-banner-content h1 { font-size: clamp(2.4rem, 6vw, 5.2rem); font-weight: 900; line-height: .95; margin-bottom: 16px; }
+.home-banner-content p { font-size: 1.12rem; margin-bottom: 26px; color: rgba(255,255,255,.88); }
+.home-banner-btn {
+    display: inline-block;
+    padding: 13px 32px;
+    background: #fff;
+    color: var(--brand-primary);
+    border-radius: 999px;
+    font-weight: 900;
+    text-decoration: none;
+    transition: var(--brand-transition);
+}
+.home-banner-btn:hover { background: var(--brand-secondary); color: #fff; transform: translateY(-3px); }
+.home-banner-arrow {
+    position: absolute; top: 50%; transform: translateY(-50%); width: 46px; height: 46px; border: none; border-radius: 50%;
+    background: rgba(255,255,255,.86); color: var(--brand-primary); font-size: 30px; line-height: 1; cursor: pointer; z-index: 3; transition: var(--brand-transition);
+}
+.home-banner-arrow:hover { background: #fff; color: var(--brand-secondary); transform: translateY(-50%) scale(1.08); }
+.home-banner-arrow.left { left: 20px; } .home-banner-arrow.right { right: 20px; }
+.home-banner-dots { position: absolute; left: 50%; bottom: 22px; transform: translateX(-50%); display: flex; gap: 8px; z-index: 3; }
+.home-banner-dot { width: 10px; height: 10px; border: none; border-radius: 50%; background: rgba(255,255,255,.55); cursor: pointer; }
+.home-banner-dot.active { background: #fff; width: 28px; border-radius: 999px; }
+.fashion-intro { max-width: 760px; margin: 46px auto 28px; text-align: center; }
+.fashion-intro h1 { font-size: clamp(2rem, 5vw, 4.2rem); line-height: 1; margin: 10px 0 16px; }
+.fashion-intro p { color: var(--brand-muted); font-size: 1.08rem; }
+.filter-panel { padding: 22px; margin: 24px 0 10px; }
+.filter-panel .form-label { font-size: 12px; text-transform: uppercase; letter-spacing: .12em; font-weight: 800; color: var(--brand-muted); }
+#productPagination .btn { min-width: 42px; }

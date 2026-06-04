@@ -1,0 +1,48 @@
+@media (max-width: 991px) {
+    .main-navbar .navbar-collapse { padding-top: 14px; }
+    .nav-search { max-width: 100%; }
+    .nav-link.active::after { display: none; }
+    .site-footer .footer-bottom { flex-direction: column; gap: 8px; align-items: flex-start; }
+}
+
+@media (max-width: 768px) {
+    .container { padding-left: 16px; padding-right: 16px; }
+    .page-shell { padding-top: 24px; }
+    .home-banner-wrapper,
+    .home-banner-loading,
+    .home-banner-slider { height: 340px; min-height: 340px; }
+    .home-banner-content { left: 8%; right: 8%; }
+    .home-banner-content p { font-size: 0.96rem; }
+    .home-banner-arrow { display: none; }
+    .filter-panel { padding: 18px; }
+    .section-heading { align-items: flex-start; margin-top: 30px; }
+    .product-card .card-img-top { height: 240px; }
+    .auth-card .card-body { padding: 28px; }
+    .cart-summary { position: static; margin-top: 22px; }
+}
+
+@media (max-width: 576px) {
+    .home-banner-wrapper,
+    .home-banner-loading,
+    .home-banner-slider { height: 285px; min-height: 285px; border-radius: 24px; }
+    .home-banner-btn { padding: 10px 24px; font-size: 0.9rem; }
+    .fashion-intro { text-align: left; margin-top: 32px; }
+    .card-buttons { flex-direction: column; }
+    .cart-product-img { width: 78px; height: 78px; }
+    .site-footer { border-radius: 28px 28px 0 0; }
+}
+
+@media (max-width: 767px) {
+    .product-card .card-img-top, .product-card img.card-img-top { height: 190px; }
+    .product-card .card-body { padding: 12px; }
+    .product-title { font-size: 14px; min-height: 38px; }
+    .product-price { font-size: 16px; }
+    .card-buttons .btn, .product-card .btn { font-size: 12px; padding: 8px 10px; }
+    .main-product-image { height: 360px; }
+    .list-toolbar { align-items: stretch; flex-direction: column; }
+    .sort-select { max-width: 100%; }
+    .filter-sidebar { position: static; }
+    .footer-bottom { flex-direction: column; gap: 8px; align-items: flex-start; }
+    .toast-stack { left: 12px; right: 12px; top: 12px; }
+    .app-toast { min-width: 0; max-width: none; width: 100%; }
+}

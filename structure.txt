@@ -1,0 +1,331 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is 0000000A 2C86:E9EF
+C:.
+│   .htaccess
+│   pass.php
+│   README.md
+│   structure.txt
+│   
+├───admin
+│   │   add-product.php
+│   │   categories.php
+│   │   dashboard.php
+│   │   edit-product.php
+│   │   login.php
+│   │   offers.php
+│   │   order-details.php
+│   │   orders.php
+│   │   products.php
+│   │   user-details.php
+│   │   users.php
+│   │   
+│   ├───assets
+│   │   ├───css
+│   │   │   └───pages
+│   │   │           admin-offers.css
+│   │   │           
+│   │   └───js
+│   │           admin-add-product.js
+│   │           admin-api.js
+│   │           admin-categories.js
+│   │           admin-dashboard.js
+│   │           admin-edit-product.js
+│   │           admin-offers.js
+│   │           admin-order-details.js
+│   │           admin-orders.js
+│   │           admin-products.js
+│   │           admin-user-details.js
+│   │           admin-users.js
+│   │           
+│   └───includes
+│           navbar.php
+│           
+├───backend
+│   │   .htaccess
+│   │   
+│   ├───api
+│   │   │   config.php
+│   │   │   
+│   │   ├───addresses
+│   │   │       delete.php
+│   │   │       list.php
+│   │   │       update.php
+│   │   │       
+│   │   ├───admin
+│   │   │   │   dashboard.php
+│   │   │   │   login.php
+│   │   │   │   order-detail.php
+│   │   │   │   orders.php
+│   │   │   │   register.php
+│   │   │   │   update-order-status.php
+│   │   │   │   update-user-status.php
+│   │   │   │   user-detail.php
+│   │   │   │   users.php
+│   │   │   │   
+│   │   │   └───categories
+│   │   │           create.php
+│   │   │           delete.php
+│   │   │           update.php
+│   │   │           
+│   │   ├───auth
+│   │   │       login.php
+│   │   │       logout.php
+│   │   │       refresh-token.php
+│   │   │       register.php
+│   │   │       
+│   │   ├───cart
+│   │   │       add.php
+│   │   │       index.php
+│   │   │       remove.php
+│   │   │       update.php
+│   │   │       view.php
+│   │   │       
+│   │   ├───categories
+│   │   │       list.php
+│   │   │       
+│   │   ├───offers
+│   │   │       apply.php
+│   │   │       create.php
+│   │   │       delete.php
+│   │   │       list.php
+│   │   │       update.php
+│   │   │       
+│   │   ├───orders
+│   │   │       addresses.php
+│   │   │       detail.php
+│   │   │       history.php
+│   │   │       place.php
+│   │   │       
+│   │   ├───products
+│   │   │       create.php
+│   │   │       delete.php
+│   │   │       details.php
+│   │   │       list.php
+│   │   │       update.php
+│   │   │       
+│   │   ├───user
+│   │   │       change-password.php
+│   │   │       profile.php
+│   │   │       update.php
+│   │   │       
+│   │   └───wishlist
+│   │           add.php
+│   │           index.php
+│   │           remove.php
+│   │           view.php
+│   │           
+│   ├───config
+│   │       app.php
+│   │       constants.php
+│   │       cors.php
+│   │       database.php
+│   │       
+│   ├───helpers
+│   │       jwt.php
+│   │       response.php
+│   │       sanitizer.php
+│   │       upload.php
+│   │       Validator.php
+│   │       
+│   ├───middleware
+│   │       adminMiddleware.php
+│   │       authMiddleware.php
+│   │       rateLimiter.php
+│   │       validateRequest.php
+│   │       
+│   ├───models
+│   │       Admin.php
+│   │       Cart.php
+│   │       Order.php
+│   │       Product.php
+│   │       User.php
+│   │       wishlist.php
+│   │       
+│   ├───services
+│   │       AuthService.php
+│   │       OrderService.php
+│   │       ProductService.php
+│   │       
+│   └───uploads
+│       └───products
+│               1778041830_t5_1.jpg
+│               1778042189_t5_2.jpg
+│               1778042203_1778041830_t5_1.jpg
+│               1779877851_6a16c7dbbc050.jpg
+│               1779880031_6a16d05f3ae5b.jpg
+│               1779884183_6a16e097d7fed.jpg
+│               campus_1.jpg
+│               campus_2.jpg
+│               campus_3.jpg
+│               campus_b1.jpg
+│               campus_b2.jpg
+│               campus_b3.jpg
+│               default-user.jpg
+│               hero.jpg
+│               kids-hero.jpg
+│               kids.jpg
+│               kurti.jpg
+│               kurti10_1.jpg
+│               kurti10_2.jpg
+│               kurti10_3.jpg
+│               kurti1_1.jpg
+│               kurti1_2.jpg
+│               kurti1_3.jpg
+│               kurti2_1.jpg
+│               kurti2_2.jpg
+│               kurti2_3.jpg
+│               kurti3_1.jpg
+│               kurti3_2.jpg
+│               kurti3_3.jpg
+│               kurti4_1.jpg
+│               kurti4_2.jpg
+│               kurti4_3.jpg
+│               kurti5_1.jpg
+│               kurti5_2.jpg
+│               kurti5_3.jpg
+│               kurti6_1.jpg
+│               kurti6_2.jpg
+│               kurti6_3.jpg
+│               kurti7_1.jpg
+│               kurti7_2.jpg
+│               kurti7_3.jpg
+│               kurti8_1.jpg
+│               kurti8_2.jpg
+│               kurti8_3.jpg
+│               kurti9_1.jpg
+│               kurti9_2.jpg
+│               kurti9_3.jpg
+│               man-hero.jpg
+│               man.jpg
+│               nikeshoes_1.jpg
+│               nikeshoes_3.jpg
+│               nikeshoes_4.jpg
+│               nikeshoes_5.jpg
+│               nikeshoes_b1.jpg
+│               nikeshoes_b2.jpg
+│               nikeshoes_b3.jpg
+│               nikeshoes_b4.jpg
+│               nikeshoes_b5.jpg
+│               no-image.jpg
+│               redtape_1.jpg
+│               redtape_2.jpg
+│               redtape_b1.jpg
+│               redtape_b2.jpg
+│               saree.jpg
+│               saree10_1.jpg
+│               saree10_2.jpg
+│               saree10_3.jpg
+│               saree1_2.jpg
+│               saree1_3.jpg
+│               saree2_1.jpg
+│               saree2_2.jpg
+│               saree2_3.jpg
+│               saree3_1.jpg
+│               saree3_2.jpg
+│               saree3_3.jpg
+│               saree4_1.jpg
+│               saree4_2.jpg
+│               saree4_3.jpg
+│               saree5_2.jpg
+│               saree5_3.jpg
+│               saree6_1.jpg
+│               saree6_2.jpg
+│               saree6_3.jpg
+│               saree7_1.jpg
+│               saree7_2.jpg
+│               saree7_3.jpg
+│               saree8_1.jpg
+│               saree8_2.jpg
+│               saree8_3.jpg
+│               saree9_1.jpg
+│               saree9_2.jpg
+│               saree9_3.jpg
+│               shoes.jpeg
+│               Shoes.jpg
+│               sneakers_1.jpg
+│               sneakers_2.jpg
+│               sneakers_3.jpg
+│               sneakers_4.jpg
+│               sneakers_5.jpg
+│               sneakers_b1.jpg
+│               sneakers_b2.jpg
+│               sneakers_b3.jpg
+│               sneakers_b4.jpg
+│               sneakers_b5.jpg
+│               t1_1.jpg
+│               t1_2.jpg
+│               t2_1.jpg
+│               t2_2.jpg
+│               t3_1.jpg
+│               t3_2.jpg
+│               t4_1.jpg
+│               t4_2.jpg
+│               t5_1.jpg
+│               t5_2.jpg
+│               t6_1.jpg
+│               t6_2.jpg
+│               t7_1.jpg
+│               t7_2.jpg
+│               t8_1.jpg
+│               t8_2.jpg
+│               t9_1.jpg
+│               t9_2.jpg
+│               women-hero.jpg
+│               
+├───database
+│       ecommerce.sql
+│       
+└───frontend
+    │   index.php
+    │   
+    ├───assets
+    │   ├───css
+    │   │   │   components.css
+    │   │   │   global.css
+    │   │   │   layout.css
+    │   │   │   responsive.css
+    │   │   │   
+    │   │   ├───components
+    │   │   │       navbar.css
+    │   │   │       product-card.css
+    │   │   │       
+    │   │   └───pages
+    │   │           admin.css
+    │   │           cart.css
+    │   │           checkout.css
+    │   │           home.css
+    │   │           orders.css
+    │   │           product.css
+    │   │           profile.css
+    │   │           
+    │   └───js
+    │           api.js
+    │           auth.js
+    │           cart.js
+    │           checkout.js
+    │           navbar.js
+    │           orders.js
+    │           products.js
+    │           profile.js
+    │           wishlist.js
+    │           
+    ├───components
+    │       footer.php
+    │       header.php
+    │       navbar.php
+    │       sidebar.php
+    │       
+    └───pages
+            cart.php
+            checkout.php
+            home.php
+            login.php
+            logout.php
+            order-details.php
+            orders.php
+            product-details.php
+            profile.php
+            register.php
+            success.php
+            wishlist.php
+            

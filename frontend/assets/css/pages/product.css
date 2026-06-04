@@ -1,0 +1,8 @@
+.product-details-page #productDetails .card,
+#productReviews .card {
+    border-radius: 28px !important;
+    border: 1px solid var(--brand-border) !important;
+    box-shadow: var(--brand-shadow) !important;
+}
+.product-details-page img { border-radius: 22px; }
+#relatedProducts { margin-bottom: 24px; }
